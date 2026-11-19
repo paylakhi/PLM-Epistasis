@@ -7,13 +7,6 @@ Input per gene:
   {BASE_DIR}/{GENE}/{GENE}_double_muts_for_esm_VALID_with_metadata.tsv
     OR
   {BASE_DIR}/{GENE}/{GENE}_double_muts_for_esm_VALID.tsv
-
-Output per gene:
-  {BASE_DIR}/{GENE}/{GENE}_epistasis_VESM_35M.tsv
-  {BASE_DIR}/{GENE}/{GENE}_epistasis_skipped_rows_VESM_35M.tsv
-
-This script does NOT overwrite the original:
-  {GENE}_epistasis_esmcnd.tsv
 """
 
 import os
